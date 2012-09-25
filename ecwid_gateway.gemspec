@@ -12,10 +12,10 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Some summary}
   gem.homepage      = ""
 
+  gem.add_dependency 'weary'
+
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-
-  gem.add_dependency('rest-client')
 end

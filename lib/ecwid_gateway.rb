@@ -1,5 +1,9 @@
 require "ecwid_gateway/version"
 
 module EcwidGateway
-  # Your code goes here...
+
+  autoload :Client, "ecwid_gateway/client"
+  autoload :Config, "ecwid_gateway/config"
+
+  extend Config
 end
