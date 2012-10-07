@@ -67,27 +67,27 @@ module EcwidGateway
 
     def get_categories(category = 0)
       request = categories_request({:store_id => @store_id, :parent => category}).perform
-      JSON.parse(request.body)
+      MultiJson.load(request.body)
     end
 
     def get_products(category)
       request = products_request({:store_id => @store_id, :category => category}).perform
-      JSON.parse(request.body)
+      MultiJson.load(request.body)
     end
 
     def get_product(product)
       request = product_request({:store_id => @store_id, :id => product}).perform
-      JSON.parse(request.body)
+      MultiJson.load(request.body)
     end
 
     def get_random_products(count)
       request = random_products_request({:store_id => @store_id, :count => count}).perform
-      JSON.parse(request.body)
+      MultiJson.load(request.body)
     end
 
     def get_profile
       request = profile_request({:store_id => @store_id}).perform
-      JSON.parse(request.body)
+      MultiJson.load(request.body)
     end
 
   end
