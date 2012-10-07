@@ -1,0 +1,72 @@
+[
+  {
+    "id": 15320715,
+    "sku": "00026",
+    "name": "Name_1",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320715"
+  },
+  {
+    "id": 15320763,
+    "sku": "00074",
+    "name": "Name_2",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320763"
+  },
+  {
+    "id": 15320736,
+    "sku": "00047",
+    "name": "Name_3",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320736"
+  },
+  {
+    "id": 15320764,
+    "sku": "00075",
+    "name": "Name_4",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320764"
+  },
+  {
+    "id": 15320771,
+    "sku": "00082",
+    "name": "Name_5",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320771"
+  },
+  {
+    "id": 15320690,
+    "sku": "00001",
+    "name": "Name_6",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320690"
+  },
+  {
+    "id": 15320737,
+    "sku": "00048",
+    "name": "Name_7",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320737"
+  },
+  {
+    "id": 15320755,
+    "sku": "00066",
+    "name": "Name_8",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320755"
+  },
+  {
+    "id": 15320719,
+    "sku": "00030",
+    "name": "Name_9",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320719"
+  },
+  {
+    "id": 15320700,
+    "sku": "00011",
+    "name": "Name_10",
+    "price": 0.0,
+    "url": "http://example.com/estore#ecwid:mode=product&product=15320700"
+  }
+]

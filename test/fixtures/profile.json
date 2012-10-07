@@ -1,0 +1,13 @@
+{
+  "storeName": "Example store",
+  "storeUrl": "http://example.com/estore",
+  "mobileUrl": "http://app.ecwid.com/jsp/123456/catalog",
+  "weightUnit": "POUND",
+  "currency": "GBP",
+  "currencyPrefix": "£",
+  "currencySuffix": "",
+  "groupSeparator": " ",
+  "decimalSeparator": ".",
+  "numericPrecision": 2,
+  "closed": false
+}

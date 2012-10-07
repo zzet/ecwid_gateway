@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+$:.push File.expand_path('../lib', __FILE__)
 require 'ecwid_gateway/version'
 
 Gem::Specification.new do |gem|
@@ -9,13 +8,16 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Andrey Kumanyaev"]
   gem.email         = ["me@zzet.org"]
   gem.description   = %q{Ecwid API wrapper}
-  gem.summary       = %q{Some summary}
+  gem.summary       = %q{Ecwid API wrapper}
   gem.homepage      = ""
 
-  gem.add_dependency 'weary'
+  gem.rubyforge_project = "ecwid_gateway"
 
-  gem.files         = `git ls-files`.split($/)
+  gem.files         = `git ls-files`.split("\n")
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+
+  gem.add_runtime_dependency 'weary'
+  gem.add_runtime_dependency 'json'
 end

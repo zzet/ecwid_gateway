@@ -1,0 +1,17 @@
+[
+  {
+    "id": 3597822,
+    "name": "Type",
+    "url": "http://example.com/estore#ecwid:mode=category&category=3597822"
+  },
+  {
+    "id": 3597826,
+    "name": "Brands",
+    "url": "http://example.com/estore#ecwid:mode=category&category=3597826"
+  },
+  {
+    "id": 3597845,
+    "name": "Component",
+    "url": "http://example.com/estore#ecwid:mode=category&category=3597845"
+  }
+]

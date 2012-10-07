@@ -1,0 +1,46 @@
+{
+  "id": 123,
+  "sku": "00091",
+  "name": "Name_1",
+  "price": 0.0,
+  "wholesalePrices": {},
+  "url": "http://example.com/estore#ecwid:mode=product&product=15320780",
+  "description": "",
+  "options": [
+    {
+    "name": "pre-packing",
+    "type": "SELECT",
+    "choices": [
+      {
+      "text": "a box of 60 sticks",
+      "priceModifierType": "ABSOLUTE",
+      "priceModifier": 32.0
+    }
+    ],
+    "defaultChoice": 0,
+    "required": false
+  }
+  ],
+  "taxes": [],
+  "galleryImages": [],
+  "categories": [
+    {
+    "id": 3597823,
+    "parentId": 3597822,
+    "name": "Category",
+    "url": "http://example.com/estore#ecwid:mode=category&category=3597823",
+    "defaultCategory": true
+  },
+  {
+    "id": 3597833,
+    "parentId": 3597826,
+    "name": "Subcategory",
+    "url": "http://example.com/estore#ecwid:mode=category&category=3597833",
+    "defaultCategory": false
+  }
+  ],
+  "dateAdded": 1347957072,
+  "created": "2012-09-18 03:31:12",
+  "productClass": "Общий",
+  "extraFields": []
+}

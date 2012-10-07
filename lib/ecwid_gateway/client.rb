@@ -1,4 +1,5 @@
 require "weary/client"
+require "json"
 
 module EcwidGateway
   class Client < Weary::Client
@@ -66,27 +67,27 @@ module EcwidGateway
 
     def get_categories(category = 0)
       request = categories_request({:store_id => @store_id, :parent => category}).perform
-      request.body
+      JSON.parse(request.body)
     end
 
     def get_products(category)
       request = products_request({:store_id => @store_id, :category => category}).perform
-      request.body
+      JSON.parse(request.body)
     end
 
     def get_product(product)
       request = product_request({:store_id => @store_id, :id => product}).perform
-      request.body
+      JSON.parse(request.body)
     end
 
     def get_random_products(count)
       request = random_products_request({:store_id => @store_id, :count => count}).perform
-      request.body
+      JSON.parse(request.body)
     end
 
     def get_profile
       request = profile_request({:store_id => @store_id}).perform
-      request.body
+      JSON.parse(request.body)
     end
 
   end
