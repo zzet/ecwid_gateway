@@ -23,11 +23,11 @@ Or install it yourself as:
 ### Configuration
 
     # Add config/initializers/ecwid_gateway.rb
-    EcwidGateway.configure do |conig|
-      conig.store_id = 'your_store_id' 
-      conig.api_domain = 'http://app.ecwid.com'
-      conig.order_secure_auth_key = 'your_order_secure_auth_key'
-      conig.sso_secure_auth_key = 'your_sso_secure_auth_key'
+    EcwidGateway.configure do |config|
+      config.store_id = 'your_store_id' 
+      config.api_domain = 'http://app.ecwid.com'
+      config.order_secure_auth_key = 'your_order_secure_auth_key'
+      config.sso_secure_auth_key = 'your_sso_secure_auth_key'
     end
 
 ### Usage
