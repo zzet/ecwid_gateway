@@ -1,8 +1,10 @@
 # EcwidGateway
 
- [![Build Status](https://secure.travis-ci.org/zzet/ecwid_gateway.png)](http://travis-ci.org/zzet/ecwid_gateway) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/zzet/ecwid_gateway)
- 
+ [![Build Status](https://secure.travis-ci.org/zzet/ecwid_gateway.png)](http://travis-ci.org/zzet/ecwid_gateway) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/zzet/ecwid_gateway) 
+  
  Gem for work with Ecwid store API 
+
+ [![endorse](http://api.coderwall.com/zzet/endorsecount.png)](http://coderwall.com/zzet)
 
 ## Installation
 
